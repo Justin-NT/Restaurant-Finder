@@ -1,15 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
-import FetchComponent from "./Components/FetchComponent";
+import FetchComp from "./Components/FetchComp";
 
-class App extends Component() {
-  render() {
-    return (
-      <div className="App">
-        <FetchComponent />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <FetchComp />
+    </div>
+  );
 }
 
 export default App;
