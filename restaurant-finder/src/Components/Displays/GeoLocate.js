@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import GeoLocateDisplay from "./GeoLocateDisplay";
 
 class GeoLocate extends Component {
   constructor(props) {
@@ -65,6 +66,7 @@ class GeoLocate extends Component {
     return (
       <div>
         <img src={this.state.image} alt="geolocation"></img>
+        <GeoLocateDisplay weather={this.state.meteorology} />
       </div>
     );
   }

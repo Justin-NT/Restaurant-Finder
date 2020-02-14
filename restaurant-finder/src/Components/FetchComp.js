@@ -25,7 +25,7 @@ class FetchComp extends Component {
   }
 
   // Runs on loading of the componenet so that the fetch is instantly run
-  componentWillMount() {
+  componentDidMount() {
     this.locationFinder();
   }
 
