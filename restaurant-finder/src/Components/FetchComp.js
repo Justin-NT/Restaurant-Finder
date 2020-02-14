@@ -33,11 +33,7 @@ class FetchComp extends Component {
     return (
       <div>
         <GeoLocate location={this.state.location} />
-        <Restaurants
-          // latitude={this.state.latitude}
-          // longitude={this.state.longitude}
-          location={this.state.location}
-        />
+        <Restaurants location={this.state.location} />
       </div>
     );
   }
