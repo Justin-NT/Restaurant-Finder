@@ -16,7 +16,7 @@ import GeoLocate from './Displays/GeoLocate';
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="textSecondary" align="center">
+    <Typography variant="body2" color="textSecondaryprimary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://material-ui.com/">
         Justin, Dylan, Karl
